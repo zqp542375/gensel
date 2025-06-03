@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Bug hunting on the Ethereum blockchain
+   https://github.com/contractAnalysis/smartExecutor
+   """
+from sys import exit
+
+
+import mythril.interfaces.cli
+import time
+
+from llm.utils import color_print
+
+if __name__ == "__main__":
+
+    seconds_start = time.time()
+    mythril.interfaces.cli.main()
+    # exit()
+    seconds_end = time.time()
+    print(f'#@time')
+    print(f'time used(s):{seconds_end-seconds_start}')
+
+
+
