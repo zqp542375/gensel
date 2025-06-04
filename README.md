@@ -7,7 +7,7 @@ Gensel is a feedback-driven LLM-enabled symbolic execution framework for Solidit
 
 
 
-[Experiment Data and Scripts](https://github.com/zqp542375/gensel_exp_scripts_and_data.git)
+[Experiment Data and Scripts](https://github.com/zqp542375/gensel_exp_scripts_and_data)
 
 
 <hr>
